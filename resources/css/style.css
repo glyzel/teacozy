@@ -1,5 +1,9 @@
 body{
   background-color: black;
+  font-family: Helvetica;
+  color: white;
+  opacity: 0.9;
+  font-size: 22px;
 }
 header{
   display: flex;
@@ -15,12 +19,28 @@ img{
 nav span a{
   display: inline-block;
   padding: 20px 10px;
-  font-family: Helvetica;
-  font-size: 20px;
   color: white;
-  opacity: 9;
 }
 .mission{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height:700px;
+  width: 1200px;
+}
+h2{
+  background-color: black;
+  width: 1180px;
+  height: 38px;
+  padding: 10px 10px;
+  text-align: center;
+}
+h4{
+  background-color: black;
+  width: 1180px;
+  height: 25.33px;
+  padding: 10px 10px;
+  text-align: center;
 }
